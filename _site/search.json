@@ -1,0 +1,83 @@
+[
+  
+    {
+      "title"    : "Verta - An LLM Chatbot",
+      "subtitle" : "",
+      "tags"     : "LLMs, MLOps",
+      "url"      : "/2025/01/03/verta-chatbot/",
+      "date"     : "2025-01-03 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "E-mail/Text Tone Analyzer",
+      "subtitle" : "",
+      "tags"     : "Natural Language Processing, LLMs, Web Application",
+      "url"      : "/2024/12/28/email-analyzer/",
+      "date"     : "2024-12-28 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Covid-19 Spread in BRICS",
+      "subtitle" : "A Tableau Dashboard",
+      "tags"     : "Data Science, Tableau",
+      "url"      : "/2024/04/24/covid-dashboard/",
+      "date"     : "2024-04-24 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Camera Calibration and Adding Virtual Objects",
+      "subtitle" : "",
+      "tags"     : "Computer Vision",
+      "url"      : "/2024/04/15/camera-calibration/",
+      "date"     : "2024-04-15 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Content Based Image Retrival",
+      "subtitle" : "",
+      "tags"     : "Computer Vision",
+      "url"      : "/2024/03/22/image-retrival/",
+      "date"     : "2024-03-22 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Decoding Super Bowl Ad Popularity features",
+      "subtitle" : "",
+      "tags"     : "Data Science, Machine Learning",
+      "url"      : "/2023/12/15/superbowl-ad-popularity/",
+      "date"     : "2023-12-15 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Taxi Booking System",
+      "subtitle" : "",
+      "tags"     : "Data Science, Web Application",
+      "url"      : "/2023/12/08/taxi-booking/",
+      "date"     : "2023-12-08 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Design and Simulation of Autonomous Water Tank Cleaning robot in Gazebo",
+      "subtitle" : "",
+      "tags"     : "Publication",
+      "url"      : "/2023/02/27/autonomous-water-tank-cleaning-robot/",
+      "date"     : "2023-02-27 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Used Car Price Prediction Application",
+      "subtitle" : "",
+      "tags"     : "Machine Learning, Data Science, Web Application",
+      "url"      : "/2022/04/22/car-price-predictor/",
+      "date"     : "2022-04-22 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Trinetra App: A Companion for the Blind",
+      "subtitle" : "",
+      "tags"     : "Publication",
+      "url"      : "/2021/11/23/trinetra-app/",
+      "date"     : "2021-11-23 00:00:00 -0500"
+    } 
+  
+]

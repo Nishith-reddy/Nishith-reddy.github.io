@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nishith's Portfolio</title>
+    <description>Nishith's Portfolio Page | Machine Learning, Data Science</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 12 Jan 2025 02:07:15 -0500</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2025 02:07:15 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Verta - An LLM Chatbot</title>
+        <description>&lt;h1 id=&quot;verta---an-llm-chatbot&quot;&gt;Verta - An LLM Chatbot&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;This project is done as part of the course IE7374 - Machine Learning Operations&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The Verta Chatbot &lt;strong&gt;&lt;a href=&quot;https://www.mlwithramin.com/MLOps/projects&quot;&gt;featured as the top project for Fall 2024&lt;/a&gt;&lt;/strong&gt; is a sophisticated AI-driven solution designed to enhance user interactions with product information. Deployed as a serverless &lt;strong&gt;FastAPI’s API&lt;/strong&gt; on Cloud Run, it serves users by answering questions about products, leveraging both metadata and user reviews for context. The chatbot utilizes a multi-agent workflow, with distinct agents performing specialized roles. A &lt;strong&gt;Metadata Agent&lt;/strong&gt; is responsible for summarizing product descriptions, while a Retriever Agent fetches relevant data from a vector store containing user reviews. This allows the chatbot to answer a wide range of user inquiries, drawing on both product details and feedback from other customers.&lt;/p&gt;
+
+&lt;p&gt;The database for this solution is hosted on PostgreSQL in &lt;strong&gt;Google Cloud Platform (GCP)&lt;/strong&gt;, ensuring scalable, reliable storage. The project utilizes &lt;strong&gt;CI/CD pipelines&lt;/strong&gt; via GitHub Actions, automating code deployment and ensuring seamless integration and delivery. Additionally, the system incorporates &lt;strong&gt;LLM-as-Judge&lt;/strong&gt; to generate synthetic test questions for a set of products, while bias detection algorithms analyze potential biases in the chatbot’s responses to ensure fairness and accuracy.&lt;/p&gt;
+
+&lt;p&gt;Experiment tracking is managed through &lt;strong&gt;MLflow&lt;/strong&gt;, which captures model performance and experiment metadata, while Langfuse is used for tracing user interactions and gathering feedback to continuously improve the system. For monitoring and alerting, &lt;strong&gt;GCP Logs&lt;/strong&gt; are utilized with notifications configured to send alerts to a Teams channel for real-time system health checks.&lt;/p&gt;
+
+&lt;p&gt;The chatbot’s data orchestration is powered by &lt;strong&gt;Apache Airflow&lt;/strong&gt;, while &lt;strong&gt;FaisDB&lt;/strong&gt; is used as the vector store for storing product reviews and context. The system integrates three LLMs — &lt;strong&gt;GPT-4o-Mini&lt;/strong&gt;, &lt;strong&gt;Llama 3.1-70B&lt;/strong&gt;, and &lt;strong&gt;Llama 3.1-8B&lt;/strong&gt; — running on four nodes to support its operations. The chatbot’s multi-agent flow is managed using &lt;strong&gt;LangGraph&lt;/strong&gt;, a framework for orchestrating complex workflows. For ease of use, the chatbot is also available as a &lt;strong&gt;Streamlit web app&lt;/strong&gt;, with integration capabilities for custom frontends via API, secured using &lt;strong&gt;Auth Bearer Tokens&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/eCom-dev5/eCom-Chatbot&quot;&gt;Link to GitHub Repo - LLM Part&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/eCom-dev5/eCom-Chatbot-UI&quot;&gt;Link to GitHub Repo - UI Part&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jan 2025 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2025/01/03/verta-chatbot/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/01/03/verta-chatbot/</guid>
+        
+        <category>LLMs</category>
+        
+        <category>MLOps</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>E-mail/Text Tone Analyzer</title>
+        <description>&lt;p&gt;The email tone analyzer integrates &lt;strong&gt;sentiment analysis&lt;/strong&gt; and &lt;strong&gt;LLM&lt;/strong&gt;s to identify the formality level of an email or text. To improve the LLM’s ability to tell whether an email is categorized as formal or informal, LLM used is fine tuned using a dataset that contains a mixture of emails with positive, negative, neutral, formal, and informal texts. Overall, this study tells the potential of sentiment analysis and LLMs like &lt;strong&gt;llama&lt;/strong&gt;, &lt;strong&gt;gemini&lt;/strong&gt;. The findings could be beneficial for anyone who is writing an email and wants to get suggestions on the tone of the email.&lt;/p&gt;
+
+&lt;p&gt;With the increasing use of emails, text messages, and other digital communication, it’s important to be mindful of the tone we use when sending messages. In academic and professional settings, an inappropriate tone can lead to misunderstandings or serious issues. For example, if you are a new business owner reaching out to a supplier, sending an informal email could leave a poor impression, potentially harming your business relationships and affecting your company’s success.&lt;/p&gt;
+
+&lt;p&gt;To address this challenge, an innovative application designed to provide both overall and sentence-level tone analysis for emails and text messages is developed. This tool empowers users to identify and improve potential tone issues in their communications, ensuring clarity and professionalism. The development of this application involved a strategic combination of transformer models like &lt;strong&gt;RoBERTa&lt;/strong&gt; and &lt;strong&gt;Llama 3.2&lt;/strong&gt;.  Firstly, &lt;strong&gt;weak supervision methods&lt;/strong&gt; are employed, leveraging &lt;strong&gt;transformers&lt;/strong&gt; and the LlaMA model to efficiently label a large corpus of emails. Weak supervision allows us to generate high-quality labels for the data with minimal manual intervention, significantly reducing the time and effort required for annotation. This labeled dataset is then finally used to fine-tune the &lt;strong&gt;Gemini LLM&lt;/strong&gt; to perform the tone classification.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Nishith-Reddy/email_sentiment-tone_analyzer&quot;&gt;Link to GitHub Repo&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Dec 2024 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2024/12/28/email-analyzer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/12/28/email-analyzer/</guid>
+        
+        <category>Natural Language Processing</category>
+        
+        <category>LLMs</category>
+        
+        <category>Web Application</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Covid-19 Spread in BRICS</title>
+        <description>&lt;p&gt;An interactive Tableau dashboard provides insights into the spread of COVID-19 and vaccination data across BRICS nations from January 2020 to July 2024.&lt;/p&gt;
+
+&lt;h2 id=&quot;tableau-visualization&quot;&gt;Tableau Visualization&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://public.tableau.com/views/covid-19_17221779235910/Dashboard1?:language=en-US&amp;amp;:sid=&amp;amp;:redirect=auth&amp;amp;:display_count=n&amp;amp;:origin=viz_share_link&quot;&gt;Click here to view complete dashboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;tableauPlaceholder&quot; id=&quot;viz1736661380419&quot; style=&quot;position: relative&quot;&gt;
+    &lt;noscript&gt;
+        &lt;a href=&quot;#&quot;&gt;
+            &lt;img alt=&quot;Dashboard 1&quot; src=&quot;https://public.tableau.com/static/images/co/covid-19_17221779235910/Dashboard1/1_rss.png&quot; style=&quot;border: none&quot; /&gt;
+        &lt;/a&gt;
+    &lt;/noscript&gt;
+    &lt;object class=&quot;tableauViz&quot; style=&quot;display:none;&quot;&gt;
+        &lt;param name=&quot;host_url&quot; value=&quot;https%3A%2F%2Fpublic.tableau.com%2F&quot; /&gt;
+        &lt;param name=&quot;embed_code_version&quot; value=&quot;3&quot; /&gt;
+        &lt;param name=&quot;site_root&quot; value=&quot;&quot; /&gt;
+        &lt;param name=&quot;name&quot; value=&quot;covid-19_17221779235910/Dashboard1&quot; /&gt;
+        &lt;param name=&quot;tabs&quot; value=&quot;no&quot; /&gt;
+        &lt;param name=&quot;toolbar&quot; value=&quot;yes&quot; /&gt;
+        &lt;param name=&quot;static_image&quot; value=&quot;https://public.tableau.com/static/images/co/covid-19_17221779235910/Dashboard1/1.png&quot; /&gt;
+        &lt;param name=&quot;animate_transition&quot; value=&quot;yes&quot; /&gt;
+        &lt;param name=&quot;display_static_image&quot; value=&quot;yes&quot; /&gt;
+        &lt;param name=&quot;display_spinner&quot; value=&quot;yes&quot; /&gt;
+        &lt;param name=&quot;display_overlay&quot; value=&quot;yes&quot; /&gt;
+        &lt;param name=&quot;display_count&quot; value=&quot;yes&quot; /&gt;
+        &lt;param name=&quot;language&quot; value=&quot;en-US&quot; /&gt;
+    &lt;/object&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var divElement = document.getElementById('viz1736661380419');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth &gt; 800) {
+        vizElement.style.minWidth = '420px';
+        vizElement.style.maxWidth = '1250px';
+        vizElement.style.width = '100%';
+        vizElement.style.minHeight = '587px';
+        vizElement.style.maxHeight = '887px';
+        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    } else if (divElement.offsetWidth &gt; 500) {
+        vizElement.style.minWidth = '420px';
+        vizElement.style.maxWidth = '1250px';
+        vizElement.style.width = '100%';
+        vizElement.style.minHeight = '587px';
+        vizElement.style.maxHeight = '887px';
+        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    } else {
+        vizElement.style.width = '100%';
+        vizElement.style.height = '1827px';
+    }
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 24 Apr 2024 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2024/04/24/covid-dashboard/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/04/24/covid-dashboard/</guid>
+        
+        <category>Data Science</category>
+        
+        <category>Tableau</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Camera Calibration and Adding Virtual Objects</title>
+        <description>&lt;p&gt;Calibrated a laptop’s webcam on a checkerboard pattern and overlaid virtual reality objects, such as a house, onto the checkerboard.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2024 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2024/04/15/camera-calibration/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/04/15/camera-calibration/</guid>
+        
+        <category>Computer Vision</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Content Based Image Retrival</title>
+        <description>&lt;p&gt;Developed an image retrieval application that returns the top 5 similar images using histogram, multi-histogram, color and texture matching, and deep neural network embeddings.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 22 Mar 2024 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2024/03/22/image-retrival/</link>
+        <guid isPermaLink="true">http://localhost:4000/2024/03/22/image-retrival/</guid>
+        
+        <category>Computer Vision</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Decoding Super Bowl Ad Popularity features</title>
+        <description>&lt;h3 id=&quot;decoding-super-bowl-ad-popularity-features&quot;&gt;Decoding Super Bowl Ad Popularity features&lt;/h3&gt;
+
+&lt;p&gt;This project is done as part of the course DS5220 - Supervised Machine Learning&lt;/p&gt;
+
+&lt;p&gt;Analyzed a dataset of ads from 10 brands and predicted ad popularity using a fine-tuned random forest model and found out the key features for popular ads include animals, sex appeal, and humor.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We are seeking to find out what the driving force is behind the popularity of Super Bowl
+commercials. The Super Bowl provides an opportunity for brands to promote their products with
+unique and often over-the-top commercials, so we want to discover what the defining
+characteristics are for a successful Super Bowl ad.&lt;/p&gt;
+
+&lt;p&gt;Brands pay millions of dollars for an ad during Super Bowl commercial breaks, and a
+significant portion of viewers enjoy the commercials just as much as the actual sporting event.
+Viewers often rank their favorite commercials and brands can truly make significant profits if
+they can put out a hit commercial. Thus, it is valuable to see which combination of absurdity,
+hilarity, danger, sex appeal, etc. enthralls the most viewers.&lt;/p&gt;
+
+&lt;p&gt;Our dataset consists of 247 advertisements from the 10 brands that aired the most
+commercials this century. Each row represents a different advertisement. Columns describe
+different variables relating to each advertisement. Variables range from binary descriptors (funny,
+patriotic, etc.) to video performance and descriptors (view count, like count, comment count,
+video title, channel title).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Nishith-Reddy/superbowl&quot;&gt;Link to the project&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Dec 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2023/12/15/superbowl-ad-popularity/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/12/15/superbowl-ad-popularity/</guid>
+        
+        <category>Data Science</category>
+        
+        <category>Machine Learning</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Taxi Booking System</title>
+        <description>&lt;p&gt;This project is done as part of the course DS5110 - Introduction to Data Management and Processing&lt;/p&gt;
+
+&lt;p&gt;This project is on Taxi/Cab Booking System. In today’s fast-paced world, efficient transportation services are a fundamental part of our daily lives. Using a taxi booking system is a revolutionary approach for consumers to hail and use services. It’s a system that links travelers with available cabs, providing easy travel options.This type of project aims to provide a comprehensive solution for various aspects of running a taxi or cab business. The final project has fourteen database tables that together include all of the subtleties of the reservation procedures objectives such as User Management, Trip Management, Driver Management, Vehicle Management, Payment and Billing, Rating and Feedback, Promotions and Offers and Surge Pricing. Our objective was to integrate all components in a smooth manner, taking care of any issues with data discrepancies and normalization along the way. We tried to meet user expectations and industry requirements for a high-quality automobile booking system by encouraging open communication and teamwork within the team .&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Nishith-Reddy/Taxi_booking_system&quot;&gt;Link to Project&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Dec 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2023/12/08/taxi-booking/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/12/08/taxi-booking/</guid>
+        
+        <category>Data Science</category>
+        
+        <category>Web Application</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Design and Simulation of Autonomous Water Tank Cleaning robot in Gazebo</title>
+        <description>&lt;h1 id=&quot;design-and-simulation-of-autonomous-water-tank-cleaning-robot-in-gazebo&quot;&gt;Design and Simulation of Autonomous Water Tank Cleaning robot in Gazebo&lt;/h1&gt;
+
+&lt;p&gt;Designed to address the drawbacks of traditional water storage tank cleaning procedures, a new robot system is described in this paper for performing cleaning work instead of manual cleaning which is characteristic of low efficiency, low safety, long time, and water pollution problems. In this paper, we have described a robot system that can clean both the floor and walls of the water tank. The robot is designed in Fusion 360, and it is simulated in Gazebo by creating an environment of a water tank. For autonomous functionality, programs written in Robot Operating System (ROS) are employed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/10047423&quot;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Feb 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2023/02/27/autonomous-water-tank-cleaning-robot/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/02/27/autonomous-water-tank-cleaning-robot/</guid>
+        
+        <category>Publication</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Used Car Price Prediction Application</title>
+        <description>&lt;h3 id=&quot;used-car-price-prediction-application&quot;&gt;Used Car Price Prediction Application&lt;/h3&gt;
+
+&lt;p&gt;Implemented a used car price predictor using decision trees and ensemble learning techniques, complemented by a user-friendly Flask-based interface.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Nishith-Reddy/Ml_Car_Price_Prediction&quot;&gt;Link to the Github repo&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Apr 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2022/04/22/car-price-predictor/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/04/22/car-price-predictor/</guid>
+        
+        <category>Machine Learning</category>
+        
+        <category>Data Science</category>
+        
+        <category>Web Application</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Trinetra App: A Companion for the Blind</title>
+        <description>&lt;h1 id=&quot;trinetra-app-a-companion-for-the-blind&quot;&gt;Trinetra App: A Companion for the Blind&lt;/h1&gt;
+
+&lt;p&gt;The life of a blind person is always dependent on another person who needs some kind of assistance, whether it is mobility or any other chore. Just like any other normal person, the blind should be able to lead their life. Trinetra App- a companion for the blind is aimed to provide a better experience for the blind. Trinetra App helps blind people by interacting with them and can tell what is happening around them. The design is incorporated with cutting-edge technologies like computer vision, speech recognition, image processing, and OCR. Trinetra App is designed using Flutter Framework which can run on both Android OS and IOS. Trinetra App can find objects in front of the user, recognize text, and convey information like time, weather, phone battery level. The detected and recognized results are conveyed through audio to the user. This research work details the methods used for design and implementation and experimental results thus obtained.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9673267&quot;&gt;Link to the paper&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Nov 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2021/11/23/trinetra-app/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/11/23/trinetra-app/</guid>
+        
+        <category>Publication</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -265,7 +265,7 @@ Releases
 - Merged #333, #336 from @JinsYin.
 - Add `Gemfile` due to increasing Bundler using.
 - TODO: `multilingual` could be more automative via configurations and convention.
-- Drop the entire `portfolio` page until a big rewrite of a better `project` page.
+- Drop the entire `portfolio` page until a big rewrite of a better `Projects` page.
 
 #### V1.8.1
 
@@ -273,7 +273,7 @@ Releases
 
 #### V1.8
 
-- Brand new [Archive](https://huangxuan.me/archive/) page! It combines previous Archive and Tag page and it's backward-cmpatible.
+- Brand new [Projects](https://huangxuan.me/Projects/) page! It combines previous Projects and Tag page and it's backward-cmpatible.
 Shout out to [@kitian616/jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme) of bringing this idea. 
 - Improve engineering by extracting duplicated liquid templates into reuseable includes. This was proposed in #74 by @Kaijun but postponed for entirely 2.5 years! I wasn't able to merge his PR directly because of long-time divegence but the credit is belonging to @Kaijun.
 - Improved code block. Long-wanted line number are supported out of the box (thanks for @SmilingParadise's help from Sina Weibo), the default theme is updated to Atom One Dark as well (checkout FQA for how to change to your farovite theme)
