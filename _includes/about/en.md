@@ -14,7 +14,7 @@ I am currently working as a data science intern at [Crewasis](https://crewasis.a
 
 ##### Recent Projects
 
-*   [Verta](https://www.mlwithramin.com/Projects/f24-group-1) · An LLM Chatbot · 2024
+*   [Verta](https://www.mlwithramin.com/projects/f24-group-1) · An LLM Chatbot · 2024
     
 *   [Email Analyzer](https://emailanalyzer.streamlit.app) · An Email Formality and Sentiment Analyzer Tool · 2024
 
