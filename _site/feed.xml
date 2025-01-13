@@ -5,8 +5,8 @@
     <description>Nishith's Portfolio Page | Machine Learning, Data Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Jan 2025 14:50:39 -0500</pubDate>
-    <lastBuildDate>Mon, 13 Jan 2025 14:50:39 -0500</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2025 15:00:05 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Jan 2025 15:00:05 -0500</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -130,6 +130,12 @@
       <item>
         <title>Camera Calibration and Adding Virtual Objects</title>
         <description>&lt;p&gt;Calibrated a laptop’s webcam on a checkerboard pattern and overlaid virtual reality objects, such as a house, onto the checkerboard.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This project deals with calibrating a camera and using the calibrated camera to place some
+virtual objects on the target image. For most parts of this project, a checkerboard is used as
+the target image. The implementation of this project is done in C++.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Apr 2024 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2024/04/15/camera-calibration/</link>
