@@ -6,7 +6,7 @@ catalog: true
 header-img: "img/verta-bg.jpg"
 header-mask: 0.4
 tags:
-  - LLMs
+  - LLM
   - MLOps
 ---
 

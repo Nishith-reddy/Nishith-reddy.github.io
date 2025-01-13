@@ -7,7 +7,7 @@ header-img: "img/email-bg.png"
 header-mask: 0.4
 tags:
   - Natural Language Processing
-  - LLMs
+  - LLM
   - Web Application
 ---
 
